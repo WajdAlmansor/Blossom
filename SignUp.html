@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="signUp.css">
+</head>
+	<header>
+		<nav>
+			<div class="logo">
+				<img src="C:\Users\wjooo\Downloads\IMG_9619.jpeg" alt="Logo">
+			</div>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="aboutUs.html">About Us</a></li>
+				<li><a href="shop.html">Shopping</a></li>
+				<li><a href="SignIn.html">SignIn</a></li>
+				<li><a href="signUp.html">SignUp</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<body>
+	<form id="SignUp" name="SignUp" action="SignUp" method="post">
+		<fieldset>
+			<legend><h2>Register Account</h2></legend>
+			<p><i>If you already have an account with us, please sign in <a href="SignIn.html" target="_self">Here.</a>.</i></p>
+			<label for="txt">First name*</label><br>
+			<input type="text" name="txt" required><br><br>
+			<label for="txt">Last name*</label><br>
+			<input type="text" name="txt" required><br><br>
+			<label for="email">Email*</label><br>
+			<input type="text" placeholder="name@email.com" name="email" required><br><br>
+			<label for="pass">Password*:</label><br>
+			<input type="password" placeholder="password" name="pass" required><br><br>
+
+			<label> Gender: </label>
+			<label> <input id="Male" name="Gender" type="radio" value="Male"/>Male</label>
+			<label> <input id="Female" name="Gender" type="radio" value="Female"/>Female</label><br><br>
+
+			<input id="submitButton" name="submitButton" type="submit" value="Continue">
+			<input id="resetButton" name="resetButton" type="reset" value="Reset">
+		</fieldset>
+	</form>
+
+	<footer>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="aboutUs.html">About Us</a></li>
+			<li><a href="shop.html">Shopping</a></li>
+			<li><a href="signIn.html">SignIn</a></li>
+			<li><a href="signUp.html">SignUp</a></li>
+		</ul>
+		<br>
+		<div class="social-icons">
+			<a href="https://facebook.com" target="_blank"><img src="C:\Users\wjooo\Downloads\facebook-logo.png" alt="Facebook" width="30" height="30"></a>
+			<a href="https://twitter.com" target="_blank"><img src="C:\Users\wjooo\Downloads\twitter (1).png" alt="Twitter" width="30" height="30"></a>
+			<a href="https://instagram.com" target="_blank"><img src="C:\Users\wjooo\Downloads\instagram.png" alt="Instagram" width="30" height="30"></a>
+		</div>
+	</footer>
+</body>
+</html>

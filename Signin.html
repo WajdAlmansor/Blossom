@@ -1,0 +1,73 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="signIn.css">
+</head>
+	<header>
+    <nav>
+        <div class="logo">
+            <img src="C:\Users\wjooo\Downloads\IMG_9619.jpeg" alt="Logo" width="100" height="100">
+        </div>
+        <ul>
+                <li><a href="home.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="shop.html">Shopping</a></li>
+            <li><a href="SignIn.html">SignIn</a></li>
+            <li><a href="signUp.html">SignUp</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<body>
+<form id=SignIn name=SignIn action=SignIn method="post">
+	<fieldset>
+		<legend><h2>Returning Customer</h2></legend>
+		<p><i>If you don't have an account with us, please sign up <a href="signUp.html" target="_self">Here.</i></p></a>
+        <br>
+			<label for="email">Email*</label>
+			<br>
+			<input type="text" placeholder="name@email.com" name="email" required>
+			<br>
+			<br>
+			<label for="pass">Password*:</label>
+			<br>
+					<input type="password" placeholder="password" name="pass" required>
+				<br>
+				<br>
+				<input id="LogInButton" name="LogInButton" type="submit" value="LOGIN" onmousedown="ButtonDown()" onmouseup="ButtonUp()">
+</fieldset>
+</form>
+
+<footer>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="shop.html">Shopping</a></li>
+        <li><a href="SignIn.html">SignIn</a></li>
+        <li><a href="signUp.html">SignUp</a></li>
+    </ul>
+    <br>
+    <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><img src="C:\Users\wjooo\Downloads\facebook-logo.png" alt="Facebook" width="30" height="30"></a>
+        <a href="https://twitter.com" target="_blank"><img src="C:\Users\wjooo\Downloads\twitter (1).png" alt="Twitter" width="30" height="30"></a>
+        <a href="https://instagram.com" target="_blank"><img src="C:\Users\wjooo\Downloads\instagram.png" alt="Instagram" width="30" height="30"></a>
+    </div>
+</footer>
+
+
+ <!-- java script  -->
+<script>
+    function ButtonDown() {
+        document.getElementById("LogInButton").style.transform = "scale(0.95)";
+    }
+
+    function ButtonUp() {
+        document.getElementById("LogInButton").style.transform = "scale(1)";
+    }
+</script>
+
+
+</body>
+</html>	
+
+	

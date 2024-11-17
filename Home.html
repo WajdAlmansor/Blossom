@@ -1,0 +1,172 @@
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="home.css">
+      <title> Home </title>
+   </head>
+   
+<nav class="navbar background">
+        <div class="logo">
+            <img src="C:\Users\wjooo\Downloads\IMG_9619.jpeg" 
+                 style="height: 80px;" 
+                 alt=" Bloosom Logo">
+        </div>
+        <ul class="nav-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="shop.html">Shopping</a></li>
+            <li><a href="SignIn.html">SignIn</a></li>
+            <li><a href="signUp.html">SignUp</a></li>
+        </ul>
+    </nav>
+
+     <body>
+     <main>
+    <!-- --------------------- header content here ----------------   -->
+
+    <header class="hero-banner">
+      <div class="hero-banner-item">
+         <h5 class="hero-banner-title" id="h5" onclick="changeColor()">
+            Welcome to Blossom! Explore unique arrangements and thoughtful gifts to celebrate special moments.
+         </h5>
+        <br>
+         <a href="shop.html" class="BUTTONS">Shop Now</a> 
+      </div>
+      <div class="hero-banner-item">
+        <img
+          src="C:\Users\wjooo\Downloads\IMG_9772.jpeg"
+          alt="Hero Image here"
+          class="hero-thumb"
+        />
+      </div>
+    </header>
+
+      <!-- -----------------features flowers --------------------- -->
+      <section id="feature">
+        <div class="container">
+          <div class="section-container">
+            <h2 class="section-heading">Our Featured Flowers</h2>
+            <p class="section-description">
+              Welcome to Featured Flowers, where we highlight the most
+              captivating and beloved blooms that nature has to offer.
+            </p>
+          </div>
+          <div class="features-flowers">
+            <div class="features-flowers-item">
+              <div class="img-thumb bg-01">
+                <img src="C:\Users\wjooo\Downloads\349-1-1000x1000.png"  alt="flower"  />
+              </div>
+              <a href="shop.html" class="img-title">Yellow Roses</a>
+            </div>
+            <div class="features-flowers-item">
+              <div class="img-thumb bg-02">
+                <img src="C:\Users\wjooo\Downloads\TAG66-1000x1000.jpg" alt="flower" style="width:300px;height:250px;" />
+              </div>
+              <a href="shop.html" class="img-title">White&Pink Tulips</a>
+            </div>
+            <div class="features-flowers-item">
+              <div class="img-thumb bg-03">
+                <img src="C:\Users\wjooo\Downloads\flower5.webp" alt="flower"  />
+              </div>
+              <a href="shop.html" class="img-title">Blue hydrangea bouquet</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- --------------Support Session Here -------------- -->
+      <section id="support-session">
+        <div class="container">
+          <div class="support">
+            <div class="support-item">
+              <img src="Bouquet2.jpeg" alt="" />
+              <h4>Same Day Delivery. Click & Collect.</h4>
+            </div>
+            <div class="support-item">
+              <img src="Bouquet2.jpeg" alt="" />
+              <h4>Fresh Flowers. Local Growers.</h4>
+            </div>
+            <div class="support-item">
+              <img src="Bouquet2.jpeg" alt="" />
+              <h4>24/7 Free Support.</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -------------- Discount Section  here ----------------  -->
+      <section id="discount-banner">
+        <div class="container">
+          <div class="discount-banner-content">
+            <div class="banner-item">
+              <h2>Hot Deal ! Sale Up To 25% <span>Off</span></h2>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+              <br>
+                 <a href="signUp.html" class="BUTTONS">Sign Up</a> 
+              <!-- <button class="primary-btn">Sign Up</button> -->
+            </div>
+            <div class="banner-item">
+              <img src="C:\Users\wjooo\Downloads\istockphoto-1470078354-612x612.webp"alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- ------------------ Latest uppate section ------------------ -->
+      <section id="latest-update-feature">
+        <div class="container">
+          <div class="update-banner">
+            <div class="update-banner-content">
+              <h2>Get The Latest Deals</h2>
+              <p>$30 coupon for first shopping</p>
+              <form>
+                <input type="email" id="email" placeholder="Enter your email here..." />
+                <button  id="sub" class="BUTTONS" type="submit"onclick="submitSubscription()">Subscribe </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+    </main>
+
+
+
+
+     <footer>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="shop.html">Shopping</a></li>
+        <li><a href="signIn.html">SignIn</a></li>
+        <li><a href="signUp.html">SignUp</a></li>
+    </ul>
+    <br>
+    <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><img src="C:\Users\wjooo\Downloads\facebook-logo.png" alt="Facebook" width="30" height="30"></a>
+        <a href="https://twitter.com" target="_blank"><img src="C:\Users\wjooo\Downloads\twitter (1).png" alt="Twitter" width="30" height="30"></a>
+        <a href="https://instagram.com" target="_blank"><img src="C:\Users\wjooo\Downloads\instagram.png" alt="Instagram" width="30" height="30"></a>
+    </div>
+</footer>
+
+<!-- java script -->
+ <script>
+           function changeColor() {
+            document.getElementById("h5").style.color = "white";
+        }
+      
+function submitSubscription() {
+    const emailInput = document.getElementById("email").value;
+
+    if (emailInput === "") {
+        alert("Please enter your email before subscribing.");
+    } else {
+        alert("Thank you for subscribing!");
+       
+    }
+}
+
+
+      </script>
+   </body>
+</html>
