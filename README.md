@@ -4,8 +4,6 @@
 It’s a fully designed flower shop interface featuring shopping, user authentication, and floral arrangements.  
 The goal was to design a user-friendly, visually appealing shopping experience — and this project delivers that with soft pastel vibes and elegant layouts.
 
-> ⚠️ Note: This is not a production-ready site. It's a front-end-only concept, built for learning and demonstration purposes.
-
 ---
 
 ## 🧩 Features
